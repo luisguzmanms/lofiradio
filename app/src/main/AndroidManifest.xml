@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lamesa.lofiradiopro">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE"/>
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"> </uses-permission>
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+
+    <application
+        android:name=".app.LofiApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <service android:name=".radio.player.RadioService"/>
+
+        <service android:name="com.ixuea.android.downloader.DownloadService">
+            <intent-filter>
+                <action android:name="com.ixuea.android.downloader.DOWNLOAD_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".ui.Splash"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".downloader.DownloadActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ui.Login"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ui.Favoritos"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ui.Historial"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <receiver
+            android:name=".downloader.DownloadFinishedReceiver"
+            android:exported="true"
+            android:process=".dlFinished">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- A receiver that will receive media buttons and send as
+            intents to your MediaBrowserServiceCompat implementation.
+            Required on pre-Lollipop. More information at
+            http://developer.android.com/reference/android/support/v4/media/session/MediaButtonReceiver.html -->
+        <receiver android:name="androidx.media.session.MediaButtonReceiver" android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

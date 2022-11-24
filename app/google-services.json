@@ -1,0 +1,109 @@
+{
+  "project_info": {
+    "project_number": "617038282481",
+    "firebase_url": "https://lofiradiopro.firebaseio.com",
+    "project_id": "lofiradiopro",
+    "storage_bucket": "lofiradiopro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617038282481:android:71cbeefb3cccf175f17350",
+        "android_client_info": {
+          "package_name": "com.lamesa.lofiradiopro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617038282481-16gpq6701ojkvkjur0d188p23mmsffpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamesa.lofiradiopro",
+            "certificate_hash": "199ba2225a720f05821d3f4a1894d7452062bc79"
+          }
+        },
+        {
+          "client_id": "617038282481-a19me9ab8ok5ofm778c33002357dml2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamesa.lofiradiopro",
+            "certificate_hash": "bf4690143fc75180cb7a3fc1ee6be80dda7ef53e"
+          }
+        },
+        {
+          "client_id": "617038282481-s5n7vnefsjo4tt36qsea5t4n29itk5d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamesa.lofiradiopro",
+            "certificate_hash": "6de360cc9dd1bbe741de55b32e7e87c1cbf8cfbb"
+          }
+        },
+        {
+          "client_id": "617038282481-kp3l77a5eab5ns5hrksfb96rl9ah2l82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamesa.lofiradiopro",
+            "certificate_hash": "28c97ba49905157f5ad46ffb490c1e6526512ada"
+          }
+        },
+        {
+          "client_id": "617038282481-ec30mvp0l820k3ih7su4i2jfqppnbaue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrUsr_53SK5tIcQBfnILeiUyu6FiGEZ48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617038282481-ec30mvp0l820k3ih7su4i2jfqppnbaue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617038282481:android:e422e6c84468338ff17350",
+        "android_client_info": {
+          "package_name": "com.lamesa.lopheeradio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617038282481-d0dkf2lps7vgprtr12fm2k9p1f7cknsj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lamesa.lopheeradio",
+            "certificate_hash": "28c97ba49905157f5ad46ffb490c1e6526512ada"
+          }
+        },
+        {
+          "client_id": "617038282481-ec30mvp0l820k3ih7su4i2jfqppnbaue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrUsr_53SK5tIcQBfnILeiUyu6FiGEZ48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617038282481-ec30mvp0l820k3ih7su4i2jfqppnbaue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

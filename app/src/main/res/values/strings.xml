@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">"Lofer - Lofi RADIO"</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="no_stream" translatable="false">Error en la reproducción</string>
+    <string name="live_broadcast" translatable="false">On Air</string>
+    <string name="leerpoliticas">You must read and accept the privacy policies, terms and conditions to continue.</string>
+    <string name="loginexitoso">Login is very successful!</string>
+    <string name="nogustocancion">You didn’t like this song :(</string>
+    <string name="radioisplaying">This radio is playing!</string>
+    <string name="radioreiniciada">Radio service is restarted!</string>
+    <string name="escuchandodesde">"Listening from "</string>
+    <string name="cargandocancion">Loading song...</string>
+    <string name="cancionelimfavoritos">Song Deleted from Favorites</string>
+    <string name="cancionenfavoritos">Song in favorites</string>
+    <string name="enviarsugerencia">Send suggestion</string>
+    <string name="reportarbug">Report BUG</string>
+    <string name="sobrelofiradio">About Lo-fi RADIO</string>
+    <string name="cancelar">Cancel</string>
+    <string name="enviar">Send</string>
+    <string name="mens_enviarsugerencia">Sending suggestions will help us to add more content for you to enjoy.   Thanks for your collaboration</string>
+    <string name="sugerenciaenviada">Suggestion sent, Thank you! :)</string>
+    <string name="enviarreporte">Send report</string>
+    <string name="mens_enviarreporte">With the bug report we will make an effective application, Thanks for your collaboration</string>
+    <string name="reporteenviado">Report sent, thank you!</string>
+    <string name="cancionagregadafavoritos">Song added to favorites</string>
+    <string name="cerrarsesion">You want to log out?</string>
+    <string name="iniciarotracuenta">Login on another account</string>
+    <string name="iniciar_sesi_n">Login</string>
+    <string name="lento">¿Slow?</string>
+    <string name="detener">STOP</string>
+    <string name="pronto">Soon!</string>
+    <string name="eliminarde">" ¿Delete "</string>
+    <string name="defavoritos">" of Favorites?"</string>
+    <string name="si">Yep</string>
+    <string name="offer1">Popular songs</string>
+    <string name="offer2">Auto Shutdown</string>
+    <string name="offer3">Favorites in the notification</string>
+    <string name="favoritos">FAVORITES</string>
+    <string name="inicio">HOME</string>
+    <string name="more">More</string>
+    <string name="radioapagado">Lo-fi RADIO has been turned off</string>
+    <string name="minutosparaapagar">Enter the minutes for Lo-fi RADIO to stop.</string>
+    <string name="ingresarnumero">You must enter a number</string>
+    <string name="autoapagado">Sleep timer</string>
+    <string name="minutos">" minutes"</string>
+    <string name="nocancionsonando">There is no song playing</string>
+    <string name="sedetendraen">"Lo-fi RADIO will stop in "</string>
+    <string name="historial">RECENT</string>
+    <string name="info_login">Login will only be done by Google, Lo-fi RADIO does not have access to your data or password, the account will only be used for data storage (Favorites).</string>
+    <string name="leido_politicas">I have read the security policy terms and accept conditions</string>
+    <string name="encender">Turn on</string>
+    <string name="apagado">Shutdown</string>
+    <string name="detenido">STOPPED</string>
+    <string name="decargando_actualizacion">Downloading update ...</string>
+    <string name="espera_descarga">Please wait while dwnloading ...</string>
+    <string name="actualizacion_disponible">Update available!</string>
+    <string name="actualizar">UPDATE</string>
+    <string name="aboutme">Lofer - Lofi RADIO is an application developed by a single person, the project has started since October 2018 as a way to publicize \"Lofi\" music and different categories as a music platform to discover and support independent artists, as I love this kind of music. \n This application is still in development.  \n\n - About me \n\n I am a student in software development and I love this, since I have done it with love for people with the same music tastes, I am 19 years old and it is better to improve every day This application, since I do not have external help for the development of this, for this reason, the collaboration in sending suggestions and error reports is very important for me and I thank you from the heart for the collaboration as well as those people who donate to continue with the development. \n - @luisguzmanms</string>
+    <string name="compartirapp">Share App</string>
+    <string name="msg_actualizacion">There is a new version available, the installation is necessary for the correct operation of the application. \n\n\n NOTE: Please note that in some cases you must grant the permissions to download the file and to install it.</string>
+    <string name="eliminarhistorial">Delete recent data?</string>
+    <string name="sharemsg">\n\n Let me recommend this app and enjoy the best music Lofi, Chill, Anime, Vaporwave, Sad. \n Totally Free! \n\n</string>
+    <string name="paramasinfo">For more information:</string>
+    <string name="verenaptoide">In Aptoide: </string>
+    <string name="para_ti">For you</string>
+    <string name="apagarcontador">Turn off</string>
+    <string name="encendercontador">Turn on</string>
+
+
+</resources>

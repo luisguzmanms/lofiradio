@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="false"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/ctolbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            app:collapsedTitleTextAppearance="@style/collapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleMargin="5dp"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleTextAppearance="@style/CollapsingToolbarLayoutExpandedTextStyle"
+            app:layout_scrollFlags="enterAlways|enterAlwaysCollapsed|scroll"
+            app:title="">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_fondo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient3"
+                    android:contentDescription="TODO"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/icon_app" />
+
+                <view
+                    class="androidx.viewpager.widget.ViewPager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient1" />
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:behavior_overlapTop="100dp"
+        app:layout_anchor="@id/appbar"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <FrameLayout
+                android:id="@+id/flmiddle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/background_round">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp">
+
+                        <TextView
+                            android:id="@+id/tvcancion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/righteous_regular"
+                            android:gravity="center"
+                            android:text="About us !"
+                            android:textColor="#ff3f4751"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvaddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="center"
+                            android:text="@string/aboutme"
+                            android:textSize="14sp" />
+
+
+                        <LinearLayout
+                            android:id="@+id/lin_opciones"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/iv_donar"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:contentDescription="TODO"
+                                    app:srcCompat="@drawable/ic_mano"
+                                    tools:ignore="VectorDrawableCompat" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:fontFamily="@font/josefinsans_semibold"
+                                    android:text="DONAR"
+                                    android:textAllCaps="true"
+                                    android:textColor="#ff878b91"
+                                    android:textSize="10sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/iv_detener"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:contentDescription="TODO"
+                                    android:visibility="invisible"
+                                    app:srcCompat="@drawable/ic_stop"
+                                    tools:ignore="VectorDrawableCompat" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:fontFamily="@font/josefinsans_semibold"
+                                    android:text="@string/detener"
+                                    android:textAllCaps="true"
+                                    android:textColor="#ff878b91"
+                                    android:textSize="10sp"
+                                    android:visibility="invisible" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/iv_instagram"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:contentDescription="TODO"
+                                    app:srcCompat="@drawable/ic_instagram"
+                                    tools:ignore="VectorDrawableCompat" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:fontFamily="@font/josefinsans_semibold"
+                                    android:text="INSTAGRAM"
+                                    android:textAllCaps="true"
+                                    android:textColor="#ff878b91"
+                                    android:textSize="10sp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

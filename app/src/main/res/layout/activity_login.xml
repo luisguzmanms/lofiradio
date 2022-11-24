@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="5dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/icon_app" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/righteous_regular"
+            android:text="INICIAR SESION"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_googlelogin"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradienttag3"
+            android:text="INICIO CON GOOGLE" />
+
+        <TextView
+            android:id="@+id/tv_appversion"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:gravity="center"
+            android:text="@string/info_login" />
+
+        <LinearLayout
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_politicas"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/leido_politicas" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvCreador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/josefinsans_light"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="For u, with love! :) \n Developed by @luisguzmanms" />
+
+</RelativeLayout>

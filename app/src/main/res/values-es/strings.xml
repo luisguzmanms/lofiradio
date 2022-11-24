@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioisplaying">Ya se esta reproduciendo esta radio!</string>
+    <string name="cancionelimfavoritos">Canción eliminada de favoritos</string>
+    <string name="leerpoliticas">Debes leer y aceptar las políticas de privacidad, términos y condiciones para continuar.</string>
+    <string name="loginexitoso">Login exitoso!</string>
+    <string name="nogustocancion">No te ha gustado esta canción :(</string>
+    <string name="cargandocancion">Cargando canción...</string>
+    <string name="escuchandodesde">"Escuchando desde "</string>
+    <string name="cancionenfavoritos">Canción en favoritos</string>
+    <string name="enviarsugerencia">Enviar sugerencia</string>
+    <string name="reportarbug">Reportar BUG</string>
+    <string name="sobrelofiradio">Sobre Lo-fi RADIO</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="enviar">Enviar</string>
+    <string name="mens_enviarsugerencia">El envio de sugerencias nos ayudara a agregar mas contenido para que lo disfrutes.   Gracias por tu colaboracion</string>
+    <string name="sugerenciaenviada">Sugerencia enviada, Gracias! :,)</string>
+    <string name="enviarreporte">Enviar reporte</string>
+    <string name="mens_enviarreporte">Con el reporte de bugs haremos una aplicación efectiva, Gracias por tu colaboración</string>
+    <string name="reporteenviado">Reporte enviado, Gracias!</string>
+    <string name="cancionagregadafavoritos">Canción agregada a favoritos</string>
+    <string name="radioreiniciada">¡Servicio de radio reiniciada!</string>
+    <string name="cerrarsesion">¿Cerrar sesión?</string>
+    <string name="iniciarotracuenta">Iniciar en otra cuenta</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="lento">¿Lento?</string>
+    <string name="detener">DETENER</string>
+    <string name="pronto">Pronto!</string>
+    <string name="eliminarde">" ¿Eliminar "</string>
+    <string name="defavoritos">" de Favoritos?"</string>
+    <string name="si">Si</string>
+    <string name="offer1">Canciones populares</string>
+    <string name="offer2">Auto Apagado</string>
+    <string name="offer3">Favoritos en notificación</string>
+    <string name="historial">RECIENTE</string>
+    <string name="favoritos">FAVORITOS</string>
+    <string name="inicio">INICIO</string>
+    <string name="more">More</string>
+    <string name="autoapagado">Contador regresivo</string>
+    <string name="ingresarnumero">Debe ingresar un numero</string>
+    <string name="minutos">" minutos"</string>
+    <string name="minutosparaapagar">Digite los minutos para que Lo-fi RADIO se detenga.</string>
+    <string name="nocancionsonando">No hay ninguna canción sonando</string>
+    <string name="radioapagado">Lo-fi RADIO ha sido apagado</string>
+    <string name="sedetendraen">"Lo-fi RADIO se detendra en "</string>
+    <string name="leido_politicas">He leído las políticas de seguridad términos y acepto condiciones</string>
+    <string name="info_login">El inicio de sesión se realizara únicamente por Google, Lo-fi RADIO no tiene acceso a sus datos o contraseña, la cuenta sera únicamente usada para el almacenamiento de datos (Favoritos).</string>
+    <string name="encender">Encender</string>
+    <string name="apagado">Apagado</string>
+    <string name="detenido">¡DETENIDO!</string>
+    <string name="aboutme">Lofer - Lofi RADIO es una aplicación desarrollada por una única persona, el proyecto ha iniciado desde octubre de 2018 como una forma de dar a conocer la música \"Lofi\" y diferentes categorías como una plataforma de música para descubrir y apoyar a artistas independientes, pues me encanta este tipo de música. \n Esta aplicación aun esta en desarrollo. \n\n  - Acerca de mí \n\n  Soy estudiante en desarrollo de software y amo esto, ya que lo he hecho con mucho cariño para personas con los compartimientos los mismos gustos de música, tengo 19 años y es mejor mejorar cada día esta aplicación, ya que no cuento con ayuda externa para el desarrollo de esto, por ello, la colaboración en envíos de sugerencias y reportes de errores es muy importante para mi y agradezco de corazón la colaboración al igual que esas personas que donan para seguir con el desarrollo. \n  - @luisguzmanms</string>
+    <string name="actualizacion_disponible">¡Actualización disponible!</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="compartirapp">Compartir App</string>
+    <string name="decargando_actualizacion">Descargando actualización...</string>
+    <string name="espera_descarga">Por favor espere mientras se realiza la descarga...</string>
+    <string name="msg_actualizacion">Hay una nueva versión disponible, es necesaria la intalacion para el correcto funcionamiento de  la aplicación. \n\n\n NOTA: Tenga en cuenta que en algunos casos debe otorgar los permisos para descargar el archivo y para poder instalarlo.</string>
+    <string name="eliminarhistorial">¿Eliminar historial?</string>
+    <string name="sharemsg">\n\n Dejame recomendarte esta aplicación y disfruta de la mejor música Lofi, Chill, Anime, Vaporwave, Sad. \n¡Totalmente Gratis! \n\n</string>
+    <string name="paramasinfo">Para mas información:</string>
+    <string name="verenaptoide">Ver en Aptoide: </string>
+    <string name="para_ti">Para ti</string>
+    <string name="apagarcontador">Apagar contador</string>
+    <string name="encendercontador">Encender contador</string>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/rlmain"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:background="@drawable/background_round"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/imgitem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tvdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/roboto_regular"
+            android:singleLine="true"
+            android:text="20 Wardrobes"
+            android:textColor="#f2bbbbbb"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/viewgradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tvdesc"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="---"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

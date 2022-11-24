@@ -1,0 +1,34 @@
+[
+  {
+    "name" : "BBC - Radio 1",
+    "stream" : "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p"
+  },
+  {
+    "name": "BBC - Radio 2",
+    "stream": "https://uc21b608de3d31b21523f9207445.dl.dropboxusercontent.com/cd/0/get/Aougo9Cx3upXJWyinaWcOL2XVpUQIxKo5f11GSMAMGXCfk9f4XBH6xrRw9izWcHhlsnTAocUD4kjwiQ34sQs-AloRMpXul2vedifKCmGJdDIVx5-vECfo-qNx8nUfnLaxUg/file"
+  },
+  {
+    "name": "BBC - Radio 3",
+    "stream": "https://uc2c38e3bfcc666e1afc3e6184da.dl.dropboxusercontent.com/cd/0/get/Aot6KOeu2ibp4xPbih2OxbdKbiqVVTIRf_IYbIr5zHzRYjQ_cidfvq2N23uVKEJmZV8SH4a4ISqNUKg4nktcvu-FmJj7MQ2ONzEjDg0X3udzfTtOPrNb0sZfoEORQkz-3R0/file"
+  },
+  {
+    "name": "BBC - Radio 4",
+    "stream": "https://uc9f0d6874e521b67c79377153e7.dl.dropboxusercontent.com/cd/0/get/Aou6DwRl7ttlFU1OTD7us3Pxc2kkbcX4Uobe72XBrgS1ElgvgArvDVNQUXF3nlXwxxefHnNV3GOUH9E4I_oke8MbAhqt2Fl58itsBG5cdVgQHiQ6o9KuNp452BZfJlodAuw/file"
+  },
+  {
+    "name": "BBC - Radio 5 live",
+    "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p"
+  },
+  {
+    "name": "BBC - Radio 6",
+    "stream": "https://s7.converto.io/download-file/j8KXiS6p38QsKkoqmo2iRcwdt2dV0Wkh/file.mp3"
+  },
+  {
+    "name": "BBC Radio Asian Network",
+    "stream": "https://s19.onlinevideoconverter.com/download?file=i8a0c2j9j9b1e4"
+  },
+  {
+    "name" : "BBC World Service",
+    "stream" : "https://oxmi4w.bn.files.1drv.com/y4mKH8Qx1GfFdGCkZutPC0XVjzWUVV_Fb3p1VGlleD5RYz6LDAFTKdAcxGVZ3nFd1DGdOXtHRQvuBOuI7viJV9CJpby4Fl1CZn3AMG9Y0ShEPGvGbNmGzrKKa7BJOVE6n5jQnSCj_1OY_zMyriTOTew-zKKE2Cxp9HKVO7sPpKNyeDkn_hXxzYHgh6XXGps0BUM/Cherry%20Glazerr%20-%20Tiptoe%20Through%20the%20Tulips%20Insidious%20Chapter%203%20Scary%20Verson20.mp3?download&psid=1"
+  }
+]
