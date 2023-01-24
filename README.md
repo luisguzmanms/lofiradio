@@ -16,7 +16,7 @@ Lofer - lofi radio (2019) es la primera versión de LUGU - lofi music (2020)
 
 ## Lofer - lofi radio (2019)
 
-![Current Version](https://img.shields.io/badge/version-1.9-green.svg)
+![Current Version](https://img.shields.io/badge/version-1.0-green.svg)
 
 Lofer - lofi radio (2019) es una aplicación para dispositivos Android gracias a la cual podrás disfrutar de música del estilo Lofi sin límites. <br>
 Escucha todas las creaciones de forma gratuita eligiendo el estilo que quieras.
